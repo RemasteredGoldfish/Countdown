@@ -1,0 +1,43 @@
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.time {
+  background-image: url('https://images.wallpaperscraft.com/image/single/beach_sunset_sea_131312_1920x1080.jpg');
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  color: white;
+  font-weight: 550;
+  font-family:'Courier New', Courier, monospace;
+  font-size: 25px;
+}  
+
+.topleft {
+  position: absolute;
+  top: 0;
+  left: 16px;
+}
+
+.bottomleft {
+  position: absolute;
+  top: 0;
+  left: 16px;
+}
+
+.middle {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-shadow: 2px 2px black;
+  text-align: center;
+}
+
+.hr {
+  margin: auto;
+  width: 40%;
+}
+
